@@ -5,8 +5,8 @@ client.on('ready', () => {
 });
          client.on('message', message => {
             if (message.content === 'welcome to GS :heart:️,') {
-              message.channel.send('**Welcome To Games Soceity :heart: 
-          -     You Are in Big Society**');
+              message.channel.send('****Welcome To Games Soceity :heart: 
+          -     You Are in Big Society****');
 
                
 
