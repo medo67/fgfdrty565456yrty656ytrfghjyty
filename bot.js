@@ -7,8 +7,8 @@ client.on('ready', () => {
 
 client.on('welcome to GS :heart:️,', msg => {
  if (msg.content === 'welcome to GS :heart:️,') {
-  msg.send('**Welcome To Games Soceity :heart: 
-          -     You Are in Big Society**');
+  msg.send('Welcome To Games Soceity :heart: 
+          -     You Are in Big Society');
   }
 });
 
