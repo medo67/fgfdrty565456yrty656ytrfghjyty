@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if message.channel.send('****Welcome To Games Soceity 
+  if message.channel.send('****Welcome To Games Soceity :heart:
           -     You Are in Big Society****');
     msg.reply('Pong!');
   }
