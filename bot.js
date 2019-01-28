@@ -5,10 +5,9 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('message', msg => {
-  if message.channel.send('****Welcome To Games Soceity :heart:
-          -     You Are in Big Society****');
-    msg.reply('Pong!');
+client.on('welcome to GS :heart:️,', msg => {
+   if msg.send('**Welcome To Games Soceity :heart: 
+          -     You Are in Big Society**');
   }
 });
 
