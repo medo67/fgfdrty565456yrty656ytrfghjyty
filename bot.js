@@ -6,8 +6,7 @@ client.on('ready', () => {
 });
 client.on('message', msg => {
   if(msg.content === 'welcome to GS :heart:️,')
-msg.reply('**Welcome To Games Soceity :heart: 
-          -     You Are in Big Society**');
+msg.reply('**Welcome To Games Soceity :heart:  -     You Are in Big Society**');
 });
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
