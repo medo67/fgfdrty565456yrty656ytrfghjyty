@@ -4,10 +4,10 @@ const client = new Discord.Client();
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
-         client.on('message', message => {
+client.on('message', message => {
             if (message.content === 'welcome to GS :heart:️') {
-              message.channel.send('**Welcome To Games Soceity :heart: 
-                                     -     You Are in Big Society**');
+              message.channel.send('Welcome To Games Soceity :heart: 
+                                     -     You Are in Big Society');
 
               message.channel.sendFile("./photoshop.PNG");
 
