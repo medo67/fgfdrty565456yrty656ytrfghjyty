@@ -6,7 +6,7 @@ client.on('ready', () => {
 });
 
 client.on('welcome to GS :heart:️,', msg => {
-   if msg.send('**Welcome To Games Soceity :heart: 
+   if msg.reply('**Welcome To Games Soceity :heart: 
           -     You Are in Big Society**');
   }
 });
