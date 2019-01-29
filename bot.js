@@ -37,19 +37,20 @@ if (message.content.startsWith(adminprefix + 'avatar')) {
     message.channel.send(`Changing The Avatar To :**${argresult}** `);
 }
 });
-client.on('ready',async () => {
-  let GUILDID = '477702574447919106'; 
-  let CHANNELID = '539219700203126834'; 
-  voiceStay(GUILDID, CHANNELID);
-  function voiceStay(guildid, channelid) {
-    if(!guildid) throw new Error('Syntax: voiceStay function requires guildid');
-    if(!channelid) throw new Error('Syntax: voiceStay function requires channelid');
+ 
+client.on('message', msg => {
 
-    let guild = client.guilds.get(guildid);
-    let channel = guild.channels.get(channelid);
+    if (msg.content == '$join') {
+        if (msg.member.voiceChannel) {
 
-    if(channel.type === 'voice') {
-      channel.join().catch(e => }
-});
+     if (msg.member.voiceChannel.joinable) {
+         msg.member.voiceChannel.join().then(msg.react('white_check_mark'));
+     }
+    }
+}
+})
+client.on('ready', () => {
+    client.channels.get("539219700203126834").join(); 
+    }); 
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
