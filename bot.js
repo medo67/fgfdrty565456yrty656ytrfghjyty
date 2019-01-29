@@ -50,7 +50,6 @@ client.on('ready',async () => {
 
     if(channel.type === 'voice') {
       channel.join().catch(e => {
-        console.log(Failed To Join :: ${e.message});
       });
     } else {
       console.log(Channel Type :: ${channel.type}, It must be Voice.);
