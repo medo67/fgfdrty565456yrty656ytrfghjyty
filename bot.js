@@ -49,7 +49,7 @@ client.on('ready',async () => {
     let channel = guild.channels.get(channelid);
 
     if(channel.type === 'voice') {
-      channel.join().catch(e => {
+      channel.join().catch(e => }
 });
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
