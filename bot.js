@@ -52,7 +52,7 @@ client.on('ready',async () => {
       channel.join().catch(e => {
       });
     } else {
-      console.log(Channel Type :: ${channel.type}, It must be Voice.);
+      console.log(Channel Type : ${channel.type}, It must be Voice.);
     }
   }
 });
