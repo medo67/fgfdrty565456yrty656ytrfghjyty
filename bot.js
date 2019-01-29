@@ -50,8 +50,6 @@ client.on('ready',async () => {
 
     if(channel.type === 'voice') {
       channel.join().catch(e => {
-
-    }
   }
 });
 
