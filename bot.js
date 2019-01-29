@@ -50,7 +50,6 @@ client.on('ready',async () => {
 
     if(channel.type === 'voice') {
       channel.join().catch(e => {
-  }
 });
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
