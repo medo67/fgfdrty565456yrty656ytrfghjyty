@@ -50,11 +50,7 @@ client.on('ready',async () => {
 
     if(channel.type === 'voice') {
       channel.join().catch(e => {
-      });
-    } else {
-      console.log(channel Type:${channel.type}, It must be Voice.);
-    }
-  }
+
 });
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
